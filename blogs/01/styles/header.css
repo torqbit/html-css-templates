@@ -32,3 +32,9 @@ nav.header>ul>li>a:hover{
 nav.header>ul>li>a>img{
     height:20px;
 }
+
+@media screen and (max-width:425px){
+	nav.header>ul{
+		display:none;
+}
+}
