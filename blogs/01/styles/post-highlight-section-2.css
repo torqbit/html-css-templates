@@ -19,3 +19,20 @@
 {
     background-color: #f8f9fa;
 }
+@media screen and (max-width:425px)
+{
+    .post-highlight-section-2
+    {
+        width: 400px;
+        height: 2200px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .post-highlight-section-2 > div > div
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     
+    }
+}
