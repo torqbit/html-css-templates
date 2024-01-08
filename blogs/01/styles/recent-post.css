@@ -1,0 +1,64 @@
+section.recent-post{
+    margin-top: 120px;
+}
+
+section.recent-post>div.container{
+    height:2200px;
+    width:1125px;
+    margin:0px auto;
+    background-color: rgb(255, 255, 255);
+}
+section.recent-post>div.container>div.site-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+section.recent-post>div.container>div.site-section>div{
+    height: 708px;
+    width: 345px;
+    margin: 0px auto;
+}
+section.recent-post>div.container>h2{
+    height: 45px;
+    margin-bottom: 70px;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+div.documentation>h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+
+}
+div.read-more{
+    text-decoration: none;
+    color: blue;
+}
+div.documentation>p{
+    color: #666;
+  
+    line-height: 1.7;
+    font-weight: 300;
+}
+div.read-more>p{
+    margin-top: 40px;
+}
+div.read-more>p>a{
+    text-decoration: none;
+    transition: .3s all ease;
+    color: #2f89fc; 
+}
+div.read-more>p>a:hover{
+    color: #004eb4;
+}
+div.documentation>p>span{
+    color: black;
+    font-weight: 400;
+}
+div.documentation>div>button{
+    background-color: #8bc34a!important;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+}
