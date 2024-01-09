@@ -58,3 +58,22 @@ input
     background-color:#1c6dd7 ;
     color: white;
  }
+ @media screen and (max-width:425px)
+ {
+    section.newsletter-section
+    {
+        width: 420px;
+        height: 290px;
+        margin: 0px auto;
+        margin-top: -200px;
+    }
+    #fname
+    {
+        width:230px;
+        margin: 0px auto;
+    }
+    .subscribe-section > div > button 
+    {
+        margin-top:0px;
+    }
+ }
