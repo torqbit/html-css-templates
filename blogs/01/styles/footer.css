@@ -1,0 +1,45 @@
+footer
+{
+    background-color: #00000033;
+    color: #808080;
+  
+}
+.footer-section
+{
+    height: 300px;
+    width: 1145px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 70px;
+}
+.links
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.images
+{
+    display: flex;
+    list-style-type: none;
+}
+ul.images > li > a > img
+{
+    height: 40px;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;    
+}
+footer > div.copyright
+{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
