@@ -43,3 +43,22 @@ footer > div.copyright
     color: gray;
     font-size: 18px;
 }
+@media screen and (max-width:425px)
+{
+    div.footer-section
+    {
+        height: 300px;
+        width: 382px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);   
+        padding: 10px 10px 10px 10px;
+    }
+    footer > div.copyright
+    {
+        text-align: center;
+        padding-top: 30px;
+        color: gray;
+        font-size: 18px;
+    }   
+}
