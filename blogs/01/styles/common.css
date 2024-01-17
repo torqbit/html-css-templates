@@ -5,4 +5,13 @@ body{
     font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", 
     oboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   position: relative;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
 }
