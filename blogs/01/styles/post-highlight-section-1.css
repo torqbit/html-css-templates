@@ -1,7 +1,6 @@
 section.post-highlight-section-1{
     background-color: #f8f9fa;
 }
-
 div.highlight-section-wrapper{
     width: 1125px;
     height:590px;
@@ -18,7 +17,6 @@ div.highlight-section-wrapper>div.card-section-1{
 div.highlight-section-wrapper>div.card-section-1>div.grid-box{
     padding: 13px;
 }
-
 @media screen and (max-width:425px){
     div.highlight-section-wrapper{
         display: grid;
