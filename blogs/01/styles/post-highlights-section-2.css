@@ -1,5 +1,8 @@
-div.post-highlight-section-2{
-    width: 1145px;
+#post-highlight-section-2{
+    background-color:var( --secondary-background-color);
+}
+div.highlight-sec-2{
+    width: 1200px;
     height: 790px;
     margin: 40px auto;
     display: flex;
@@ -7,39 +10,75 @@ div.post-highlight-section-2{
     align-items: center;
     gap: 10px;
 }
-div.post-highlight-section-2>div>div{
+.boxes{
     display: flex;
     gap: 10px;
     margin-top: 28px;
     justify-content:space-between;
 }
-section.highlight-section-2{
-    background-color: #f8f9fa!important;
+div.text-high-sec-2{
+    position: absolute;
+    margin-top: -120px;
+    padding: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+div.text-high-sec-2>div{
+    color: #fff;
+    font-size: 18px;
+}
+button.high-sec-2-btn{
+    position: absolute;
+    margin-top:-180px;
+    padding: 1px 8px;
+    background-color: var( --btn-color-2);
+    color:var( --para-color);
+    border: none;
+    border-radius: 6px;
+}
+#button-2{
+    background-color: var( --hover-color);
+}
+#button-3{
+    background-color: var(--btn-color-3);
+}
+.text-high-sec-2-right-box{
+    position: absolute;
+    margin-top: -180px;
+    padding: 20px;
+    color: rgb(255, 255, 255, 0.5)
+}
+.text-high-sec-2-right-box>div{
+    font-size: 26px;
+    color: var( --para-color);
+}
+button.high-sec-2-btn-4{
+    position: absolute;
+    margin-top:-450px;
+    padding: 1px 8px;
+    background-color: rgb(93, 174, 36);
+    color: var( --para-color);
+    border: none;
+    border-radius: 6px;
+}
+.high-sec-after{
+    display: none;
 }
 @media screen and (max-width:425px){
-    div.post-highlight-section-2{
-        width: 385px;
-        height: 1500px;
+    .high-sec-before{
+        display: none;
+    }
+    .high-sec-after{
+        display:block;
+    }
+    div.highlight-sec-2{
+        width: 400px;
         margin: 0px auto;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
     }
-    div.post-highlight-section-2>div>div{
+    .boxes{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 0px auto;
-        width: 345px;
     }
-    div.post-highlight-section-2>div>div>div>img{
-        height: 200px;
-        width: 345px;
-        margin: 20px auto;
-        background-color: orange;
-    }
-    div.post-highlight-section-2>div>img{
-        height: 200px;
-        width: 385px;
-        background-color:pink;
-        margin: 0px   auto;
+    button.high-sec-2-btn-4{
+        margin-top:-220px;
     }
 }
