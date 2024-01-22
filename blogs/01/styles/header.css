@@ -1,6 +1,6 @@
 nav > div.container{
 	height: 67px;
-	background-color: white;
+	background-color: var(--whitebackground-color);
 	display:flex;
 	justify-content:space-between;
 	
