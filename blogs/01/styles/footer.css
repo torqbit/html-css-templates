@@ -1,3 +1,6 @@
+footer{
+	background-color:var(--footer-background);
+}
 .footer{
 	height:318px;
 	background-color:var(--footer-background);
