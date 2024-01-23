@@ -1,0 +1,225 @@
+#post-highlights-section-2 > .lastdiv{
+	height:630px;
+	background-color:var(--background-color);
+	padding: 80px;
+}
+#post-highlights-section-2 > .lastdiv > .container{
+	height: 630px;
+	width:1200px;
+	padding: 0px 15px 0px 15px;
+    	margin-right: auto;
+   	margin-left: auto;
+	display:flex;
+	justify-content:center;
+	gap: 20px;
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child{
+	height:630px;
+	width:699.99px;
+	
+	display:flex;
+	flex-direction:column;
+	gap:30px;
+	padding:0px 15px;
+}
+
+#post-highlights-section-2 > .lastdiv > .container > div:last-child{
+	height:630px;
+	width:100%;
+	
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div {
+	height:300px;
+	width:699.99px;
+	
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a{
+	display:inline-block;
+	height:300px;
+	width:699.99px;
+	background-image: url('https://placehold.co/699x300');	
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a > div{
+	height:89px;
+	width:310px;
+	bottom:-125px;
+	position:relative;
+	padding:20px;
+	color:var(--h2text-color);
+}  
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a > div >h2{
+	color:var(h2text-color);
+	font-size:18px;
+    	line-height:1.5;
+	font-weight:450;
+} 
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a > div > span{
+	color:var(--lite-gray);
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a >span {
+	background-color:var(--span-green);
+	padding: 3px 10px;
+   	border-radius: 4px;
+   	letter-spacing: .2em;
+   	font-weight: 700;
+	margin-top:10px;
+	margin-left:20px;
+	color:var(--h2text-color);
+	display:inline-block;
+	font-size: .6rem;
+    	text-transform: uppercase;
+} 
+
+#post-highlights-section-2 > .lastdiv > .container > div:last-child > a{
+	height:630px;
+	width:470px;
+	display:inline-block;
+	background-image: url('https://placehold.co/470x630');
+}
+#post-highlights-section-2 > .lastdiv > .container > div:last-child > a >span {
+	background-color:var(--span-red);
+	padding: 3px 10px;
+   	border-radius: 4px;
+   	letter-spacing: .2em;
+   	font-weight: 700;
+	margin-top:10px;
+	margin-left:20px;
+	color:#fff;
+	display:inline-block;
+	font-size: .6rem;
+    	text-transform: uppercase;
+}  
+
+#post-highlights-section-2 > .lastdiv > .container > div:last-child > a > div >h2{
+	color:var(--h2text-color);
+	font-size:26px;
+    	line-height:1.5;
+	font-weight:450;
+} 
+#post-highlights-section-2 > .lastdiv > .container > div:last-child > a > div > span{
+	color:var(--lite-gray);
+}
+#post-highlights-section-2 > .lastdiv > .container > div:last-child > a > div{
+	height:152px;
+	width:310px;
+	bottom:-380px;
+	position:relative;
+	padding:20px;
+
+} 
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child{
+	display:flex;
+
+}   
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a{
+	height:300px;
+	width:319px;
+	background-image: url('https://placehold.co/319x300');
+	border-radius:0.25rem;	
+}   
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a:last-child{
+	margin-left:61.5px;
+	
+}  
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a > span{
+	background-color:var(--span-blue);
+	padding: 3px 10px;
+   	border-radius: 4px;
+   	letter-spacing: .2em;
+   	font-weight: 700;
+	margin-top:10px;
+	margin-left:20px;
+	color:#fff;
+	display:inline-block;
+	font-size: .6rem;
+    	text-transform: uppercase;
+}   
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a:last-child > span {
+	background-color:var(--span-green);
+}
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a > div{
+    position: relative;
+    bottom: -125px;
+    padding: 20px;
+    max-width: 350px;
+} 
+#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a > div >h2{
+	color:var(--h2text-color);
+	font-size:18px;
+    	line-height:1.5;
+	font-weight:450;
+}    
+.lastdiv > .container > div:first-child > div:last-child > a > div > span {
+	color:var(--lite-gray);
+}                            
+
+@media screen and (max-width:425px){
+	#post-highlights-section-2 > .lastdiv{
+		height:1300px;
+		width:394px;
+		padding:40px;
+	}
+	
+	#post-highlights-section-2 > .lastdiv > .container{
+		width:424px;
+		height:1200px;
+		flex-direction:column;
+    		justify-content: flex-start;
+		margin-left:-55px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child{
+		height:1200px;
+		width:394px;
+		display:flex;
+		justify-content:space-evenly;
+		margin-top:-80px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div{
+		height:400px;
+		width:394px;
+		margin-bottom:0px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a {
+		height:400px;
+		width:394px;
+		background-image:url('https://placeholder.co/394x400');
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child{
+		height:400px;
+		width:394px;
+		flex-direction:column;
+		justify-content:space-evenly;
+		margin-top:0px;
+		gap:25px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a {
+		height:300px;
+		width:394px;	
+		background-image:url('https://placeholder.co/394x300');	
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a:last-child{
+		margin-left:0px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:last-child{
+		height:300px;
+		width:394px;
+		margin-bottom:-80px;
+
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:last-child > a{
+		height:300px;
+		width:394px;
+		background-image:url('https://placeholder.co/394x300');
+		margin-left:15px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:last-child > a > div {
+		height:192px;
+		bottom: -90px;
+	}
+   	#post-highlights-section-2 > .lastdiv > .container > div:last-child > a > div{
+		bottom:0px;
+	}
+	#post-highlights-section-2 > .lastdiv > .container > div:first-child > div:first-child > a > div {
+		bottom:-230px;
+	}
+}
