@@ -24,7 +24,7 @@ div.slide>ul>li>a{
     padding: 10px 0px;
     font-weight: 620;
     color: var(--primary-font-color);
-    transition: all,0.3s,ease;
+    transition: all 0.3s ease-in-out;
 }
 div.slide>ul>li>a:hover{
     color:var(--hover-color);
