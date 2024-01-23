@@ -1,0 +1,217 @@
+#recentpost > div.recent{
+	height:2150px;
+	background-color: var(--white-background-color);
+	padding: 160px;
+	display:flex;
+	justify-content:center;
+}
+
+#recentpost > div.recent > div.container {
+	height: 2150px;
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	gap:50px;
+	margin-top: -80px;
+}
+
+#recentpost > div.recent > div.container > div:first-child > h2{
+	height: 48px;
+	width: 1170px;
+	font-size: 32px;
+	font-weight: normal;
+	margin: 0px 0px 8px;
+	background-color: var(--white-background-color);
+}
+
+#recentpost > div.recent > div.container > div.lstchild {
+	width: 1200px;
+	background-color: var(--white-background-color);
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	
+}
+#recentpost > div.recent > div.container > div.lstchild > div{
+	height: 667.41px;
+	width: 399.99px;
+	margin-bottom: 20px;
+}
+#recentpost > div.recent > div.container > div.lstchild > div > a{
+	height:253.9px;
+	width:369.99px;
+	border-radius: 0.25rem;
+	margin:0px 0px 20px 0px;
+	background-image:url('https://placehold.co/369x253');
+	display:inline-block;
+	margin: 15px;
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box > span{
+	background-color: var(--span-gray);
+	color: white;
+	display: inline-block;
+    	padding: 3px 10px;
+    	border-radius: 4px;
+    	letter-spacing: .2em;
+    	font-weight: 700;
+    	font-size: .6rem;
+	margin-left: 20px;
+	
+}
+
+
+
+#recentpost > div.recent > div.container > div.lstchild > div.second >  div.box > span{
+	background-color: var(--span-green);
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div.third > div.box > span{
+	background-color: var(--span-yellow);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.fiveth > div.box > span{
+	background-color: var(--span-green);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.sixth > div.box > span{
+	background-color: var(--span-red);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.seventh > div.box > span{
+	background-color: var(--span-green);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.eiegth > div.box > span.snd{
+	background-color:var(--span-gray);
+	margin-left: 0px;
+}
+#recentpost > div.recent > div.container > div.lstchild > div.eiegth > div.box > span{
+	background-color: var(--span-red);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.ninth >  div.box >span{
+	background-color: var(--span-red);
+}
+#recentpost > div.recent > div.container > div.lstchild > div.ninth > div.box > span.snd{
+	background-color: var(--span-yellow);
+	margin-left: 0px;
+}
+
+
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box{
+	height:383.51px;
+	width:369.99px;
+	padding: 0px 20px;
+}
+#recentpost > div.recent > div.container > div.lstchild > div > div.box > h2{
+	height: 42px;
+	width: 339px;
+	margin: 20px;
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box > div.aimg{
+	height: 60px;
+	align-items: center;
+    	display: inline-flex;
+	font-size: 13px;
+	padding:20px;
+}
+#recentpost > div.recent  > div.container > div.lstchild > div > div.box > div.aimg > img {
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box > div.aimg > span {
+	color:#B3B3B3;
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box > div.aimg > span > a {
+	color: black;
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > div.box >  p.article {
+	line-height: 1.5;
+	color:#666666;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-left: 20px;
+	height: 136px;
+	width: 319.99px;
+	font-weight: 300;
+}
+
+#recentpost > div.recent> div.container > div.lstchild > div > div.box > p:last-child > a{
+	color: var(--span-blue);
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 350;
+	
+}
+
+#recentpost > div.recent > div.container > div.lstchild > div > p:last-child {
+	margin-top: 0px;
+	height: 22px;
+	font-weight: 300;
+}
+ div.border > div.pagen {
+	display: flex;
+	justify-content:center;
+	height: 100px;
+	align-items: center;
+	gap: 10px;
+}
+
+ div.border > div.pagen > a {
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color:var(--span-blue);
+    color:var(--h2text-color);
+}
+
+ div.border > div.pagen > span{
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: var(--ptext-color);
+}
+
+ div.border{
+	height:68px;
+	weidth:1200px;
+	border-top: 1px solid #edf0f5;
+}
+
+@media screen and (max-width:425px){
+	#recentpost > div.recent{
+		height:7000px;
+		padding:0;
+		margin-top:30px;
+	}
+	#recentpost > div.recent > div.container{
+		height:7000px;
+		width:394px;
+		margin: 0px auto;
+	}
+	#recentpost > div.recent > div.container > div.lstchild{
+		grid-template-columns:repeat(1,1fr);	
+		width:394px;
+		margin-left:-15px;
+	}
+	#recentpost > div.recent > div.container > div.lstchild > div > a{
+		height:270px;
+		width:394px;
+		background-image: url(https://placeholder.co/394x270);
+	}
+	#recentpost > div.recent > div.container > div.lstchild > div{
+		height:720px;
+		width:394px;
+	}
+	#recentpost > div.recent > div.container > div.lstchild > div > div.box {
+		height:384px;
+		width:394px;
+		padding:20px;
+	}
+}
