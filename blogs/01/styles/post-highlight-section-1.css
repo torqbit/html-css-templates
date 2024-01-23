@@ -4,7 +4,7 @@ section.post-highlight-section-1{
 
 div.post-highlight{
    width:1200px;
-   height:400px;
+   height:650px;
    display:flex;
    align-items:center;
    justify-content:space-evenly;
@@ -15,7 +15,8 @@ div.post-highlight{
 div.post-highlight>div.box-section{
      display:grid;
      grid-template-columns:repeat(1,1fr);
-     padding:15px;
+     padding:10px;
+     gap:30px;
 }
 
 
