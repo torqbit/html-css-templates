@@ -54,6 +54,10 @@ nav.navbar > h3
 }
 @media screen and (max-width:425px)
 {
+    nav.navbar
+    {
+        height: 42px;
+    }
     div.slide > ul.menu
     {
         justify-content: start;
