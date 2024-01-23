@@ -12,7 +12,7 @@ section.recent-post>div.container>div.site-section{
     gap: 30px;
 }
 section.recent-post>div.container>div.site-section>div{
-    height: 640px;
+    height: 660px;
     margin: 0px auto;
 }
 section.recent-post>div.container>h2{
@@ -24,6 +24,7 @@ section.recent-post>div.container>h2{
 }
 div.documentation{
     padding:0px 20px;
+
 }
 div.documentation>h3{
     color: var(--primary-font-color);
