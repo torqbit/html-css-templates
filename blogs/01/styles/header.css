@@ -1,6 +1,6 @@
 nav.navbar
 {
-    background-color:white;
+    background-color:var(--primary-background-color);
     display: flex;
     justify-content: space-between;
     height: 68px;
@@ -9,31 +9,30 @@ nav.navbar
 nav.navbar > h3
 {
     font-size: 24px;
-    color: #000;
+    color: var(--primary-font-color);
     font-weight: 400;
     padding: 0px 20px;
 }
 .menu
 {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
     padding: 0px 20px;
-    margin-top: 21px;
+    margin-top: 20px;
 }
 .menu > li > a
 {
     text-decoration: none;
     padding: 10px 0px;
     font-weight: 500;
-    color: #000;
+    color: var(--primary-font-color);
     transition: all,0.3s,ease;
 }
 .menu > li > a:hover
 {
-    color: #2f89fc;
+    color: var(--color-hover);
 }
 .menu > li > a > img
 {
@@ -49,7 +48,7 @@ nav.navbar > h3
 {
     height: 4px;
     width: 23px;
-    background-color:#888;
+    background-color:var(--secondary-font-color);
     margin:5px 20px;
 }
 @media screen and (max-width:425px)
@@ -84,7 +83,7 @@ nav.navbar > h3
     {
         padding: 10px;
         font-size: 20px;
-        color: #000000;
+        color: var(--primary-font-color);
         transition: all,0.3s,ease;
     }
 }
