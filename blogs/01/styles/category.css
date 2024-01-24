@@ -1,0 +1,31 @@
+section.category{
+background-color:var(--primary-background-color);
+height:174px;
+color:var(--primary-font-color);
+padding:48px 0px;
+line-height:1.7;
+}
+section.category>div.container{
+width:1200px;
+margin:0px auto;
+height:170px;
+}
+section.category>div.container>div{
+width:50%;
+padding:0px 15px;
+}
+section.category>div.container>div>h3{
+font-size:28px;
+color:var(--h3-color);
+font-weight:450;
+margin:0px 0px 15px;
+}
+@media screen and (max-width:425px){
+section.category{
+width:425px;
+margin:0px auto;
+}
+section.category>div.container>div>p{
+width:410px;
+
+}
