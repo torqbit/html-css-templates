@@ -1,0 +1,312 @@
+#banner {
+  background-color: var(--secondary-background-color);
+  height: 270px;
+  width: 100%;
+}
+#banner .container {
+  max-width: 1200px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  padding-top: 60px;
+}
+#banner .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.head {
+  max-width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.head h3 {
+  font-size: 28px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.head span {
+  color: var(--secondary-font-color);
+  font-weight: 300;
+  font-size: 15px;
+  height: 42px;
+  width: 570px;
+}
+.head p {
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--secondary-font-color);
+}
+
+.recent {
+  height: 2150px;
+  background-color: var(--button-background);
+  padding: 160px;
+  display: flex;
+  justify-content: center;
+}
+.recent > .container {
+  height: 2150px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: -80px;
+}
+.posts {
+  width: 1200px;
+  background-color: var(--button-background);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.posts > div {
+  height: 670px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.posts > div > a {
+  height: 253px;
+  width: 369px;
+  margin: 0px 0px 20px 0px;
+  display: inline-block;
+  margin: 15px;
+}
+.box > span {
+  color: var(--button-background);
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 10px;
+  margin-left: 20px;
+}
+div.posts > div:first-child > div.box > span {
+  background-color: var(--secondary-font-color);
+}
+.posts > div:nth-child(2) > div.box > span {
+  background-color: var(--green);
+}
+.posts > div:nth-child(3) > div.box > span {
+  background-color: var(--orange);
+}
+.posts > div:nth-child(4) > div.box > span {
+  background-color: var(--secondary-font-color);
+}
+.posts > div:nth-child(5) > div.box > span {
+  background-color: var(--green);
+}
+.posts > div:nth-child(6) > div.box > span {
+  background-color: var(--red);
+}
+.posts > div:nth-child(7) > div.box > span {
+  background-color: var(--green);
+}
+.posts > div:nth-child(8) > div.box > span:first-child {
+  background-color: var(--red);
+}
+.posts > div:nth-child(8) > div.box > span:nth-child(2) {
+  background-color: var(--secondary-font-color);
+  margin-left: 0px;
+}
+.posts > div:nth-child(9) > div.box > span:first-child {
+  background-color: var(--red);
+}
+.posts > div:nth-child(9) > div.box > span:nth-child(2) {
+  background-color: var(--orange);
+  margin-left: 0px;
+}
+
+.posts > div > div.box {
+  height: 350px;
+  width: 350px;
+  padding: 10px 25px;
+}
+.posts > div > div.box > h2 {
+  height: 42px;
+  width: 339px;
+  margin: 20px;
+}
+.content > span > a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+.caption {
+  padding: 0 25px;
+  font-weight: 300;
+  color: var(--grey);
+}
+.posts > div > div.box > div.content {
+  height: 50px;
+  align-items: center;
+  display: inline-flex;
+  font-size: 13px;
+  padding: 20px;
+  gap: 10px;
+}
+.posts > div > div.box > div.content > img {
+  border-radius: 15px;
+}
+div.posts > div > div.box > p > a {
+  padding-left: 5px;
+}
+div.posts > div > div.box > h2 {
+  font-weight: 500;
+}
+div.posts > div > div.box > h2:hover {
+  cursor: pointer;
+}
+#recentpost
+  > div.recent
+  > div.container
+  > div.posts
+  > div
+  > div.box
+  > div.content
+  > span {
+  color: var(--grey-shade);
+}
+#recentpost
+  > div.recent
+  > div.container
+  > div.posts
+  > div
+  > div.box
+  > p:last-child
+  > a {
+  color: var(--blue);
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 350;
+  text-decoration: none;
+}
+#recentpost > div.recent > div.container > div.posts > div > p:last-child {
+  margin-top: 0px;
+  height: 22px;
+  font-weight: 300;
+}
+div.border > div.page {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  gap: 10px;
+}
+
+div.border > div.page > a {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  text-decoration: none;
+  color: var(--button-background);
+}
+div.border > div.page > span {
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: var(--secondary-font-color);
+}
+div.border {
+  height: 68px;
+  width: 1200px;
+  border-top: 1px solid var(--grey-light);
+}
+footer {
+  height: 318px;
+  background-color: var(--black-light);
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -120px;
+}
+footer > .container {
+  height: 318px;
+  width: 1200px;
+  padding: 0px 15px;
+  background-color: var(--black-light);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: small;
+}
+footer > .container > div {
+  height: 250px;
+  width: 400px;
+  background-color: var(--black-light);
+  padding: 0px 10px;
+}
+footer > .container > div > h3 {
+  color: var(--button-background);
+  font-weight: 500;
+  margin-top: 0px;
+}
+footer > .container > div > p {
+  color: var(--grey-lighter);
+  margin-top: 0px;
+  line-height: 1.7;
+  font-size: 15px;
+  font-weight: 300;
+}
+footer > .container > div > ul {
+  height: 148px;
+  width: 80px;
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 60px;
+}
+footer > .container > div > ul:last-child {
+  margin-left: 5px;
+}
+footer > .container > div > ul > li > a {
+  color: var(--gray-light);
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+}
+footer > .container > div > ul > li > a:hover {
+  color: var(--button-background);
+}
+footer > .container > div > ul > li {
+  margin-bottom: 15px;
+}
+footer > .container > div:nth-child(3) > div {
+  display: flex;
+  justify-content: left;
+}
+footer > .container > div:nth-child(3) > div > a {
+  margin: 10px;
+}
+footer > .container > div:nth-child(3) > div > a > img {
+  height: 16px;
+  width: 20px;
+  background: transparent;
+}
+
+footer > div:last-child > p {
+  color: var(--grey-lighter);
+  font-size: 16px;
+}
+footer > div:last-child > p > span {
+  font-size: 15px;
+  color: var(--red);
+}
+footer > div:last-child > p > a {
+  color: var(--gray-dark);
+  font-weight: 400;
+  margin-left: 5px;
+}
