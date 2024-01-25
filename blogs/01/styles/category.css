@@ -7,10 +7,10 @@
 .content{
 	height:175px;
 	width:570px;
-	background-color:transparent;
+	background-color:var(--background-color);
 	padding:0px 15px;
 	line-height:1.5;
-	margin-left:100px;
+	margin-left:150px;
 }
 .content > span {
 	height:20px;
@@ -29,8 +29,9 @@
 .content > h3 {
 	font-size:28px;
 	margin-top:10px;
-	font-weight:350;
+	font-weight:380;
 	margin-bottom:8px;
+	color:#000;
 }
 
 @media screen and (max-width:424px){
