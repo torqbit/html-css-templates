@@ -13,8 +13,23 @@ body
    --color-hover:#2f89fc;
    --primary-background-color:white;
    --secondary-background-color:#f8f9fa;
+   --green: #8BC34A;
+   --orange: orange;
+   --red: red;
+   --grey: #666;
+   --blue: #2f89fc;
+   --grey-shade: #B3B3B3;
+   --grey-light: #edf0f5;
+   --black-light: #333;
+   --grey-lighter: #737373;
+   --gray-light: #999999;
+   --gray-dark: #808080;
 }
 ul
 {
     list-style-type: none;
+}
+a
+{
+    text-decoration: none;
 }
