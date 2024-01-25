@@ -1,89 +1,55 @@
-nav.navbar
-{
+nav.header{
     background-color:var(--primary-background-color);
     display: flex;
     justify-content: space-between;
     height: 68px;
     align-items: center;
 }
-nav.navbar > h3
-{
+nav.header>h3{
     font-size: 24px;
-    color: var(--primary-font-color);
+    color:var(--primary-font-color);
     font-weight: 400;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
-.menu
-{
+div.slide>ul{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
     padding: 0px 20px;
-    margin-top: 20px;
 }
-.menu > li > a
-{
+div.slide>ul>li>a{
     text-decoration: none;
     padding: 10px 0px;
-    font-weight: 500;
+    font-weight: 620;
     color: var(--primary-font-color);
     transition: all,0.3s,ease;
 }
-.menu > li > a:hover
-{
-    color: var(--color-hover);
+div.slide>ul>li>a:hover{
+    color:var(--hover-color);
 }
-.menu > li > a > img
-{
-    height:18px;
-    margin-top: 7px;
+div.slide>ul>li>a>img{
+    height:15px;
 }
-.hamburger
-{
-    position: relative;
+.hamburger{
     display: none;
+    padding: 0px 20px;
 }
-.hamburger > div
-{
-    height: 4px;
-    width: 23px;
-    background-color:var(--secondary-font-color);
-    margin:5px 20px;
+.hamburger>div{
+    height: 2.2px;
+    width: 20px;
+    background-color:var(--hamburger-menu-color);
+    margin:5px auto;  
 }
-@media screen and (max-width:425px)
-{
-    nav.navbar
-    {
+@media screen and (max-width:425px){
+    nav.header{
         height: 42px;
     }
-    div.slide > ul.menu
-    {
-        justify-content: start;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right: -320px;
-        background: rgb(246, 246, 246,1);
-        width: 200px;
-        height: 100%;
-        padding-top: 20%;
-        margin-bottom: 100;     
+    div.slide>ul{
+        display: none;
     }
-    .hamburger
-    {
+    .hamburger{
         display: block;
-    }
-    .menu > li
-    {
-        width: 100%;
-    }
-    .menu > li > a
-    {
-        padding: 10px;
-        font-size: 20px;
-        color: var(--primary-font-color);
-        transition: all,0.3s,ease;
     }
 }
